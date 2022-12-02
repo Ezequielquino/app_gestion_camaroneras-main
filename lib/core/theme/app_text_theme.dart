@@ -1,10 +1,10 @@
+import 'package:app_gestion_camaroneras/core/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppTextTheme {
   AppTextTheme(this.context);
   final BuildContext context;
 
-/* 
   TextStyle h4Bold({Color color = AppColors.kPrimary}) => Theme.of(context)
       .textTheme
       .headline4!
@@ -139,5 +139,5 @@ class AppTextTheme {
           color: color,
           fontWeight: FontWeight.bold,
         );
-  } */
+  }
 }

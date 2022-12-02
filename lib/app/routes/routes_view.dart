@@ -3,6 +3,8 @@ import 'package:app_gestion_camaroneras/app/ui/views/home/home_binding.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/home/home_view.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/login/login_binding.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/login/login_view.dart';
+import 'package:app_gestion_camaroneras/app/ui/views/technicalsupport/technical_support_binding.dart';
+import 'package:app_gestion_camaroneras/app/ui/views/technicalsupport/technical_support_view.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/ticket/ticket_binding.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/ticket/ticket_view.dart';
 import 'package:app_gestion_camaroneras/app/ui/views/ticket_detail/ticket_detail_binding.dart';
@@ -30,6 +32,11 @@ abstract class RoutesView {
       name: RoutesName.TICKETDETAIL,
       page: () => const TicketDetailView(),
       binding: TicketDetailBinding(),
+    ),
+    GetPage(
+      name: RoutesName.TECHNICALSUPPORT,
+      page: () => const TechnicalSupportView(),
+      binding: TechnicalSupportBinding(),
     ),
   ];
 }
